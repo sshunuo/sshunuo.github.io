@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>我的作品集 | CPT208 B1</title>
-    <!-- 这里可以设置一些样式让页面更好看，这里先留空 -->
+    <title>Portfolio | CPT208 B1</title>
+
     <style>
         body {
             font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
@@ -28,57 +28,95 @@
 </head>
 <body>
     <header>
-        <h1>🗂️ CPT208 人本计算项目作品集</h1>
-        <p>主题: <strong>B1 - XJTLU Group Discussions</strong></p>
-        <p class="status-badge">项目进行中</p>
+        <h1>🗂️ CPT208 Human-Centric Computing Project Portfolio</h1>
+        <p>Theme: <strong>B1 - XJTLU Group Discussions</strong></p>
+        <p class="status-badge">Project in progress</p>
         <hr>
     </header>
 
     <section>
-        <h2>👥 团队成员</h2>
+        <h2>👥 Team Members</h2>
         <ul>
-            <li>成员 1 姓名 - 学生ID</li>
-            <li>成员 2 姓名 - 学生ID</li>
-            <li>成员 3 姓名 - 学生ID</li>
-            <li>成员 4 姓名 - 学生ID</li>
+            <li>Shuo Sun - 2363139</li>
+            <li>Renchao Mi - 2363619</li>
+            <li>Yechen Fan - 2361526</li>
+            <li>Bowen Liu - 2362380</li>
         </ul>
     </section>
 
     <section>
-        <h2>🎯 项目动机</h2>
+        <h2>🎯 Project Motivation：</h2>
         <p>Motivation：
 The Challenge: In XJTLU’s international academic setting, group projects often suffer from scattered communication across fragmented platforms and information overload. While students (primary users) struggle with unequal participation and language barriers, academic teachers (secondary users) find it difficult to monitor group progress and provide timely intervention based on actual discussion quality.
 The Need: There is a critical need for a human-centric platform that bridges this gap. Our group chose the B1: XJTLU Group Discussions track to develop a solution that streamlines information flow for students while offering teachers visibility into the collaborative process without intrusive oversight.
 Our Vision: We aim to build a web-based ecosystem that integrates Generative AI to act as an intelligent facilitator. By balancing academic rigor with a "playful" experience, we seek to transform stressful teamwork into an inclusive and productive social interaction, empowering students to lead and teachers to support more effectively within the XJTLU community.
 
+           Essay：
+Essay 1: Interrogating AI (Nikghalb et al., 2025)
+•	Pros: This study establishes that playful interaction is a vital way for users to build trust with AI. It provides a framework for using humor and challenges to increase user engagement.
+•	Gaps: The research focuses on individual user behavior. There is a lack of evidence on how these playful dynamics can be applied to collective group collaboration.
+Essay 2: EFL Students & AI (Putri & Jaya, 2026)
+•	Pros: It highlights the specific needs of English as a Foreign Language (EFL) learners. It confirms that AI support can significantly reduce social anxiety and bridge language gaps in academic settings.
+•	Gaps: The findings are limited to user perceptions. It provides no guidance on the technical implementation of a web platform or how to involve teachers in the process.
+Essay 3: LLM-Empowered Agent (An et al., 2024)
+•	Pros: It proposes a functional system architecture for using AI as a "knowledgeable peer." This provides a technical roadmap for real-time discussion monitoring and guidance.
+•	Gaps: The interface design is rigid and purely academic. It ignores the "playful experience" required to maintain student motivation during long-term collaboration.
+Essay 4: Teacher Perspectives on Gamification (Alenezi, 2023)
+•	Pros: It validates that educators (secondary users) value game-like elements, such as badges. It proves that gamification can transform routine learning into a more meaningful experience.
+•	Gaps: It lacks a concrete UI design for a teacher dashboard. There is still a need for a tool that allows for non-intrusive monitoring without making students feel over-supervised.
+•	
+While current research separately addresses AI playfulness (Essay 1), language support (Essay 2), intelligent facilitation (Essay 3), and teacher perceptions of gamification (Essay 4), these elements remain disconnected in practice. There is a distinct lack of a unified platform that integrates playful social dynamics with real-time academic support and non-intrusive teacher oversight. Our project fills this gap by building a cohesive web ecosystem tailored for the XJTLU community, balancing student autonomy with effective instructional guidance.
+
 </p>
     </section>
 
     <section>
-        <h2>🔬 用户研究</h2>
+        <h2>🔬 User Research</h2>
         <img src="images\leo.png" alt="leo">
+        <p>Primary User</p>
         <img src="images\sophia.png" alt="sophia">
-        <p></p>
+        <p>Secondary User</p>
     </section>
 
     <section>
-        <h2>💡 设计构思</h2>
-        <p>后续更新设计草图、原型图等。</p>
+        <h2>💡 Design and Conception</h2>
+        <h3>3.1 exploration</h3>
+        <img src="images\crazy 8.png" alt="crazy 8">
+        <p>These are the eight preliminary interface concepts our team drew during the brainstorming phase, aimed at exploring different information layouts and interaction possibilities.</p>
+        <img src="images\low-fri.png" alt="low-fri">
+        <p>Our Low-fi wireframe is a conceptual blueprint of the XJTLU COLLABFLOW interface. It focuses on information architecture and user flow rather than visual details like colors or fonts.</p>
+        <h4>Competitive Analysis</h4>
+        <p>Comparative Product:
+1. WeChat (Representative of Social Accessibility)
+•	Pros: As the most popular communication tool for XJTLU students, WeChat offers unmatched accessibility and zero learning costs. Its real-time notifications ensure that group members stay connected and can respond quickly to urgent tasks.
+•	Gaps: It suffers from severe Information Overload. Academic discussions are easily buried under social noise and unrelated chats. Furthermore, it lacks a formal feedback channel for teachers (secondary users), who cannot monitor progress without invading students' private social spaces.
+2. Microsoft Teams (Representative of Professional Productivity)
+•	Pros: Teams provides a highly structured environment for file collaboration and project management, fully integrated with Office 365. It represents a professional standard for documenting meetings and tracking formal assignments.
+•	Gaps: The user interface is often perceived as rigid and cold, creating "workplace pressure" rather than "learning motivation." It lacks playful elements to keep students engaged and offers very little real-time AI guidance for EFL students struggling with academic English.
+3. Discord (Representative of Playful Interaction & AI Plugins)
+•	Pros: It excels at creating a vibrant social atmosphere. With custom roles and various AI bots, students can build a unique group identity. It is currently the closest tool to providing a "playful experience" for online collaboration.
+•	Gaps: There is a significant Risk of Distraction. Since Discord is rooted in gaming, students are easily sidetracked by entertainment channels. Its AI features are also "fragmented plugins" rather than a unified system designed to analyze and improve the quality of academic discussions.
+4. NotebookLM (Representative of AI-Driven Knowledge Management)
+•	Pros: It showcases the cutting edge of AI information processing. By analyzing uploaded course materials, it can instantly generate summaries and answer complex questions, greatly increasing the speed of research.
+•	Gaps: It lacks collaborative dynamics. NotebookLM is designed for "One-on-One" interaction between a human and an AI. It does not facilitate "Human-to-Human" discussion or provide teachers with a real-time map of how a group is interacting and progressing.
+
+Our analysis of WeChat, MS Teams, Discord, and NotebookLM reveals a clear market gap: traditional tools are either too social (WeChat/Discord) or too rigid (Teams), while modern AI tools (NotebookLM) focus on data rather than people. Our B1 Project aims to merge these worlds by creating a playful, AI-guided ecosystem that supports the language needs of XJTLU students while providing teachers with non-intrusive oversight.
+</p>
     </section>
 
     <section>
-        <h2>🛠️ 技术实现</h2>
-        <p>后续更新系统架构、技术栈等。</p>
+        <h2>🛠️ Technical Implementation</h2>
+        <p>Subsequent updates to system architecture, technology stack, etc.</p>
     </section>
 
     <section>
-        <h2>📝 评估与反思</h2>
-        <p>后续更新测试结果、反思总结等。</p>
+        <h2>📝 Assessment and Reflection</h2>
+        <p>Follow-up updates on test results, reflections, summaries, etc.</p>
     </section>
 
     <footer>
         <hr>
-        <p>最后更新: 2026年4月</p>
+        <p>Last Updated: 2026.4.23</p>
     </footer>
 </body>
 </html>
